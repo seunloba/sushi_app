@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- <link rel="stylesheet" href="bootstrapnew.min.css" /> -->
+    <link rel="stylesheet" href="css/cart.css"/>
+</head>
+
+<body>
+    <div class="submit">
+        <div class="item1">
+                <span class="h1">Your Subtotal<span><br>
+                <span class="h2">Subtotal  $80</span><br>
+                <!-- <span><input type="text" name="total" value=""></span> -->
+                <input class="total-btn" type="submit" value="confirm order">
+        </div>
+        <div class="item2">
+                <span class="h1">Promo Code<span><br>
+                <input class="form-control" type="text" value="enter promo code"><br>
+                <input class="total-btn" type="submit" value="Apply">
+        </div>
+    </div>
+    <div class="move-icon">
+        <div class="item">
+            <logo>S.</logo>
+        </div>
+        <div class="item">
+            <button class="icon">
+                <a href="index.html"><i class="i" data-lucide="home"></i></a>
+            </button>
+        </div>
+        <div class="item">
+            <button class="icon">
+                <a href="menu.html"><i class="i" data-lucide="utensils-crossed"></i></a>
+            </button>
+        </div>
+        <div class="item">
+            <button class="icon">
+                <a href="cart.html"><i class="i" data-lucide="shopping-cart"></i></a>
+            </button>
+        </div>
+        <div class="item">
+            <button class="icon">
+                <a href="location.html"><i class="i" data-lucide="map-pin"></i></a>
+            </button>
+        </div>
+        <div class="item">
+            <button class="icon">
+                <a href="exit.html"><i class="i" data-lucide="log-out"></i></a>
+            </button>
+        </div>
+    </div>
+    <div class="shopping-cart">
+        <div class="title">
+            <u>CART</u>
+        </div>
+        <div class="item" id="cart">
+            <div class="image" id="cartItems">
+                <img src="cart img/ellipse-50.png" alt="">
+            </div>
+            <div class="description">
+                <span>Smashed Ayo</span>
+                <span>$20</span>
+            </div>
+            <div class="quantity">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="svg/minus.svg" alt="">
+                </button> 
+                <input type="text" name="quantity" value="1">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="svg/plus.svg" alt="">
+                </button>
+            </div>
+            <div class="button">
+                <span class="delete-btn"></span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="cart img/ellipse-60.png" alt="">
+            </div>
+            <div class="description">
+                <span>Yin & Yang</span>
+                <span>$10</span>
+            </div>
+            <div class="quantity">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="svg/minus.svg" alt="">
+                </button> 
+                <input type="text" name="quantity" value="1">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="svg/plus.svg" alt="">
+                </button>
+            </div>
+            <div class="button">
+                <span class="delete-btn"></span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="cart img/ellipse-70.png" alt="">
+            </div>
+            <div class="description">
+                <span>Pancakes</span>
+                <span>$25</span>
+            </div>
+            <div class="quantity">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="svg/minus.svg" alt="">
+                </button> 
+                <input type="text" name="quantity" value="1">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="svg/plus.svg" alt="">
+                </button>
+            </div>
+            <div class="button">
+                <span class="delete-btn"></span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="cart img/ellipse-80.png" alt="">
+            </div>
+            <div class="description">
+                <span>Rancheros(Tofu)</span>
+                <span>$25</span>
+            </div>
+            <div class="quantity">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="svg/minus.svg" alt="">
+                </button> 
+                <input type="text" name="quantity" value="1">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="svg/plus.svg" alt="">
+                </button>
+            </div>
+            <div class="button">
+                <span class="delete-btn"></span>
+            </div>
+        </div>                                                                                                                                                                                      
+    </div>
+    <!-- <h1><U>CART</U></h1>
+    <div class="mb-3 container text-center bg-dark">
+        <div class="row"><div class="col-sm-1"><i data-lucide="home"></i></div></div>
+        <div class="row"><div class="col-sm-1"><i data-lucide="utensils-crossed"></i></div></div>
+        <div class="row"><div class="col-sm-1"><i data-lucide="shopping-cart"></i></div></div>
+        <div class="row"><div class="col-sm-1"><i data-lucide="map-pin"></i></div></div>
+        <div class="row"><div class="col-sm-1"><i data-lucide="log-out"></i></div></div>
+    </div>
+
+    <div class="mb-3 container  text-center bg-warning">
+        <div class="row">
+            <div class="col-sm-2 "><img class="ellipse" src="/cart img/ellipse-50.png"></div>
+            <div class="col-sm-2">Smashed Avo</div>
+            <div class="col-sm-1"><input class="form-control" type="number"></div>
+            <div class="col-sm-1"><button type="button" class="btn-close" aria-label="Close"></button></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2"><img class="ellipse" src="/cart img/ellipse-60.png"></div>
+            <div class="col-sm-2">Yin & Yang</div>
+            <div class="col-sm-1"><input class="form-control" type="number"></div>
+            <div class="col-sm-1"><button type="button" class="btn-close" aria-label="Close"></button></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2"><img class="ellipse" src="/cart img/ellipse-70.png"></div>
+            <div class="col-sm-2">Pancakes</div>
+            <div class="col-sm-1"><input class="form-control" type="number"></div>
+            <div class="col-sm-1"><button type="button" class="btn-close" aria-label="Close"></button></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2"><img class="ellipse" src="/cart img/ellipse-80.png"></div>
+            <div class="col-sm-2">Rancheros (Tofu)</div>
+            <div class="col-sm-1"><input class="form-control" type="number"></div>
+            <div class="col-sm-1"><button type="button" class="btn-close" aria-label="Close"></button></div>
+        </div>
+    </div>
+        
+    <div class="mb-3 container  text-center">
+        <div class="row">
+            <div class="col offset-md-6">
+                <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-warning">Your Subtotal</div>
+                    <div class="card-body bg-warning">
+                        <p class="card-text">Subtotal = $<input class="form-control bg-warning" type="number"></p>
+                        <button class="btn btn-dark" type="submit">Confirm Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col offset-md-6">
+                <div class="card text-bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Promo Code</div>
+                    <div class="card-body">
+                        <p class="card-text btn-outline-light"><input class="form-control" value="enter promo code"type="text"></p>
+                        <button class="btn btn-dark" type="submit">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+        <!-- <thead>
+            your  subtotal
+            <tbody>
+                <label>subtotal</label>
+                <input type="number">
+                <label>promo code</label>
+                <input type="text">
+                <input type="submit">
+            </tbody>
+        </thead> -->
+
+                <!-- <button type="button" class="btn btn-primary position-relative">
+            Mails <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">+99 <span class="visually-hidden">unread messages</span></span>
+        </button>
+        
+        <button type="button" class="btn btn-dark position-relative">
+            Marker <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+        </button>
+        
+        <button type="button" class="btn btn-primary position-relative">
+            Alerts <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"><span class="visually-hidden">unread messages</span></span>
+        </button> -->
+        <footer>
+            <p>Copyright © 2021 Sushi Restaurant</p>
+        </footer>
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script>
+            lucide.createIcons();
+        </script>
+        <script src="index.js"></script>
+        <!-- <script src="lucide.min.js"></script> -->
+    </body>
+</html>
