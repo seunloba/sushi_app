@@ -1,0 +1,48 @@
+.move-icon {
+    background-color: black;
+    width: 100px;
+    height: 740px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    border-radius: 20px;
+}
+  logo {
+    color: burlywood;
+    font-size: 50px;
+  }
+  .icon {
+    background-color: black;
+    border: none;
+  }
+  .item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+  }
+.i {
+    color: white;
+}
+.title {
+    position: relative;
+    left: 175px;
+    bottom:  700px;
+}
+u {
+    text-decoration-color: burlywood;
+}
+.images {
+    position: relative;
+    bottom: 690px;
+    left: 40px;
+}
+.load {
+    position: relative;
+    bottom: 700px;
+    left: 40px;
+}
+footer {
+    position: relative;
+    left: 180px;
+    bottom: 600px;
+}
